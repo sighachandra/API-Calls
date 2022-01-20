@@ -33,7 +33,7 @@ export default function Invoices() {
         {backItems.map(backItem => (
           <Link
             style={{ display: "block", margin: "1rem 0" }}
-            to={`/invoices/${backItem.id}`}
+            to={`/user/${backItem.id}`}
             key={backItem.id}
           >
             {backItem.name}
